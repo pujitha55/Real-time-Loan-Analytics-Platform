@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "LoanEvent",
+  "fields": [
+    {"name": "loan_id", "type": "string"},
+    {"name": "user_id", "type": "string"},
+    {"name": "amount", "type": "double"},
+    {"name": "status", "type": "string"},
+    {"name": "timestamp", "type": "long"}
+  ]
+}
